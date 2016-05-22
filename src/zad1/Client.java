@@ -26,6 +26,7 @@ public class Client {
 
             comunication(pdi);
 
+
         } catch( Exception e ) {
             e.printStackTrace( );
         }
