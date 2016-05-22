@@ -13,6 +13,7 @@ public class PhoneDirectory extends PortableRemoteObject implements PhoneDirecto
     private Map pbMap = new HashMap();
 
     public PhoneDirectory(String fileName) throws RemoteException{
+        super();
         // Inicjalna zawartość książki telefonicznej
         // jest wczytywana z pliku o formacie
         //  imię  numer_telefonu

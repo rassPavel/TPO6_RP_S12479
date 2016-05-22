@@ -19,4 +19,10 @@
       </profile>
     </annotationProcessing>
   </component>
+  <component name="RmicSettings">
+    <option name="IS_EANABLED" value="true" />
+    <option name="GENERATE_IIOP_STUBS" value="true" />
+    <option name="GENERATE_NO_WARNINGS" value="true" />
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-iiop" />
+  </component>
 </project>
